@@ -14,6 +14,14 @@
   }
 }
 
+.closed-sidebar {
+  @apply w-0;
+}
+
+.opened-sidebar {
+  @apply w-[256px];
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
